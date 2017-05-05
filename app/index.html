@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Yemek.com</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="#" class="image" id="image" alt="">
+      <h2 id="title"></h2>
+      <p id="content"></p>
+      <h2>Yorumlar</h2>
+      <div class="comment-section">
+        <div id="comments"></div>
+        <form class="comment-form">
+          <input type="text" name="user-name" class="input" id="username" placeholder="Kullanıcı Adınızı Yazınız...">
+          <textarea name="comment" rows="4" id="comment" placeholder="Yorumunuzu Yazın..." class="input"></textarea>
+          <button class="button success-button" onclick="addComment(event)">Gönder</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
